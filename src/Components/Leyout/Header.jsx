@@ -27,8 +27,8 @@ const Header = () => {
 
   return (
     <>
-      <Container>
         <div className=" p-7 bg-FutterBgColor relative">
+      <Container>
           <Flex
             className={
               "flex-col gap-y-5 md:flex-row flex justify-between items-center"
@@ -136,8 +136,8 @@ const Header = () => {
               )}
             </div>
           </Flex>
-        </div>
       </Container>
+     </div>
     </>
   );
 };
