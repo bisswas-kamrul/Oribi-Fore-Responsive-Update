@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@theme {
+    /* color */
+    --color-NavTextColor: #767676; 
+    --color-FutterBgColor: #F5F5F3; 
+    --color-HedearTextColor: #262626; 
+    --color-InformetionTextColor: #6D6D6D; 
+  /* color */
+  /* google font start */
+   --font-display: "DM Sans", sans-serif;
+  /* google font End */
+}
+.slick-prev{
+  background: transparent !important;
+ left:  15px !important;
+ z-index: 10 !important;
+
+}
+.slick-prev::before{
+  color: black !important;
+  font-size: 30px !important;
+}
+.slick-next{
+  background: transparent !important;
+  z-index: 10 !important;
+  right: 15px !important;
+}
+.slick-next::before{
+  color: black !important;
+  font-size: 30px !important;
+}
